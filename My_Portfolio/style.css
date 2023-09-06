@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 120px;
+  align-items: center;
+  background-color: #000000;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  justify-content: space-evenly;
+  padding: 20px 20px;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+nav ul a:hover {
+  border-radius: 35px;
+  color: black;
+  background-color: white;
+}
+.logo {
+  align-items: center;
+  display: flex;
+  padding-right: 300px;
+}
+
+.fsec{
+  height: 683px;
+  text-align: center;
+}
+.textd{
+  padding: 100px;
+  font-size: 50px;
+  color: #000000;
+}
+.pen{
+ padding: 42px; 
+}
+.ssec{
+  height: 683px;
+  background-color: #000000;
+  display: flex;
+}
+.rsec{
+  height: 683px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.lsec{
+  height: 683px;
+  width: 50%;
+}
+.ms{
+  padding: 88px;
+}
+.amc{
+  padding: 10px;
+}
+.about{
+  padding: 44px;
+  font-size: 35px;
+}
+.aboutdesc{
+  font-size: 35px;
+    text-align: justify;
+    padding: 2px 101px;
+}
+
+.tsec{
+  padding: 87px;
+  margin-bottom: 87px;
+}
+
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 46vh;
+}
+
+.secondSection .box {
+  width: 79vw;
+  height: 5px;
+  margin: 152px 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+.secondSection .verticle {
+  height: 90px;
+  width: 3px;
+  background-color: rgb(0, 0, 0);
+  margin: 0 200px;
+}
+.image-top {
+  width: 40px;
+  position: relative;
+  top: -54px;
+  left: -16px;
+}
+.image-top:hover {
+  width: 45px;
+}
+.verticle-title {
+  position: relative;
+  top: 68px;
+  color: #000000;
+  width: 150px;
+  font-size: 20px;
+}
+.verticle-desc {
+  position: relative;
+  top: 71px;
+  color: gray;
+  
+
+  width: 150px;
+  font-size: 12px;
+}
+.verticle-desc:hover {
+  font-size: 15px;
+  width: 300px;
+  color: white;
+  background-color: #011624;
+  padding: 10px;
+  text-align: center;
+  z-index: +1;
+}
+.text-gray {
+  color: rgb(177, 173, 173);
+}
+.heading{
+  font-size: 35px;
+  color: #000000;
+}
+
+.foursec{
+  height: 476px;
+  padding: 87px;
+  background-color: #000000;
+  
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+  margin:  -78px 116px;
+}
+
+
+
+
+
+
+.card {
+  width: 200px;
+  height: 300px;
+  perspective: 1000px; /* Set the perspective for 3D effect */
+  margin: 100px auto; /* Center the card on the page */
+}
+
+/* Style the inner card */
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; /* Enable 3D transformations */
+  transition: transform 0.5s ease; /* Add a smooth transition on hover */
+}
+
+/* Style the front and back of the card */
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #000000;
+  color: #fff;
+  backface-visibility: hidden; /* Hide the back side until flipped */
+}
+
+/* Define the flip effect on hover */
+.card:hover .card-inner {
+  transform: rotateY(180deg); /* Rotate the card 180 degrees on the Y-axis */
+}
+
+/* Style the back side of the card */
+.card-back {
+  transform: rotateY(180deg); /* Initially hidden on the back side */
+  background-color: #000000;
+}
+
+.fifthsec{
+  height: 600px;
+
+}
+.us{
+  display: flex;
+  height: 428px;
+  }
+.insta{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.linkedIn{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.stext{
+  color: #000000;
+  padding: 173px 0px;
+    font-size: 25px;
+}
+
+.lastsec{
+  background-color: #000000;
+  height: 100px;
+  
+}
+.details{
+  padding: 35px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+
